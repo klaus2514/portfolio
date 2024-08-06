@@ -1,0 +1,113 @@
+body{
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.name{
+    position: relative;
+    font-style: italic;
+    align-self: center;
+    line-height: 40px;
+    overflow: auto;
+}
+
+h3{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#start{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background: #3d5a80;
+}
+
+.introfirst{
+    flex-wrap: wrap;
+    position: relative;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat:no-repeat;
+    -webkit-background-clip:text;
+    background-position: -950px 0;
+    text-transform: uppercase;
+    animation: backcolor 3s linear infinite alternate;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0,0;
+    }
+}
+
+
+.pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 8rem;
+}
+
+.mypic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#mid{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pic2{
+    height: 400px;
+    width: 400px;
+    border-radius: 2px solid black;
+    margin-top: 100px;
+}
+
+.picme{
+    height: 400px;
+    width: 400px;
+}
+
+
+.about1{
+    height: 400px;
+    width: 352px;
+}
+
+.paraInt{
+    line-height: 40px;
+}
+
+.myself{
+    display: flex;
+    margin-left: 180px;
+    justify-content: space-around;
+}
+
+.intro2{
+    flex-wrap: wrap;
+    text-size-adjust: 500px;   
+}
+
+.contact{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 205px;
+    width: 100vw;
+    background-color: aqua;
+}
+i{
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 22rem;
+}
